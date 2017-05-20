@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Répartition des tâches</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="shortcut icon" href='img/icone.png'/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script type="text/javascript" src="javascript.js"></script>
+		<style>
+			#repartition {
+				background-color:grey
+				}
+		</style>
+	</head>
+
+	<body id="home">
+			<div id="extend" class="extend">
+				<img class="extend_img" id="extend_img" src="#"/>
+				<img class="close_extend" src="img/icone_close.png" onclick="close_ext()"/>
+			</div>
+			
+			<header id="haut">
+				<table>
+					<tr><a href="index.html" class="title">Dossier projet de Kiéran Goyat</a></tr>
+					<tr>
+						<td><a href="index.html" class="hotbar" id="Page_de_garde">Page de garde</a></td>
+						<td><a href="presentation.html" class="hotbar" id="presentation">Présentation</a></td>
+						<td><a href="analyse.html" class="hotbar" id="analyse">Analyse / idées</a></td>
+						<td><a href="repartition.html" class="hotbar" id="repartition">Répartition du travail</a></td>
+						<td><a href="realisation.html" class="hotbar" id="realisation">Réalisation</a></td>
+						<td><a href="integration.html" class="hotbar" id="integration">Intégration / validation</a></td>
+						<td><a href="bilan.html" class="hotbar" id="bilan">Bilan</a></td>
+						<td><a href="diffusion.html" class="hotbar" id="diffusion">Diffusion</a></td>
+						<td><a href="annexes.html" class="hotbar" id="annexes">Annexes</a></td>
+					</tr>
+				</table>
+			</header>
+			
+			<div class="main">
+				<div class="contenu">
+					<p class="txt">échéancier au début du projet:<br/></p>
+					<img src="img/echeancier.PNG" onclick="extend('img/echeancier.PNG')" class="img"/>
+				</div>
+				
+				<div class="contenu">
+					<p class="txt">répartition des tâches:<br/></p>
+					<img src="img/taches.PNG" onclick="extend('img/taches.PNG')" class="img"/>
+					<p class="txt">Mon rôle était la création des mini-jeux, Maël et Baptiste quant à eux s'occupaient de l'aspect et de la conception du site.<br/></p>
+					<p class="txt">La communication au sein de l'équipe était réalisé par Messenger ou directement à l'école.<br/></p>
+				
+					<p class="navig"><br/>&prod;<a href="analyse.html" class="ref2">&larr; Page précédente &larr;</a>&prod;<a href="#haut" class="ref2">&uarr; haut de page &uarr;</a>&prod;<a href="index.html" class="ref2">&rarr; accueil &larr;</a>&prod;<a href="realisation.html" class="ref2">&rarr;Page suivante&rarr;</a>&prod;</p>
+				</div>
+			</div>
+	</body>
+</html>

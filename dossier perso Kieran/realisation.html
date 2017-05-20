@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Réalisation</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="shortcut icon" href='img/icone.png'/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script type="text/javascript" src="javascript.js"></script>
+		<style>
+			#realisation {
+				background-color:grey
+				}
+		</style>
+	</head>
+
+	<body id="home">
+			<div id="extend" class="extend">
+				<img class="extend_img" id="extend_img" src="#"/>
+				<img class="close_extend" src="img/icone_close.png" onclick="close_ext()"/>
+			</div>
+			
+			<header id="haut">
+				<table>
+					<tr><a href="index.html" class="title">Dossier projet de Kiéran Goyat</a></tr>
+					<tr>
+						<td><a href="index.html" class="hotbar" id="Page_de_garde">Page de garde</a></td>
+						<td><a href="presentation.html" class="hotbar" id="presentation">Présentation</a></td>
+						<td><a href="analyse.html" class="hotbar" id="analyse">Analyse / idées</a></td>
+						<td><a href="repartition.html" class="hotbar" id="repartition">Répartition du travail</a></td>
+						<td><a href="realisation.html" class="hotbar" id="realisation">Réalisation</a></td>
+						<td><a href="integration.html" class="hotbar" id="integration">Intégration / validation</a></td>
+						<td><a href="bilan.html" class="hotbar" id="bilan">Bilan</a></td>
+						<td><a href="diffusion.html" class="hotbar" id="diffusion">Diffusion</a></td>
+						<td><a href="annexes.html" class="hotbar" id="annexes">Annexes</a></td>
+					</tr>
+				</table>
+			</header>
+			
+			<div class="main">
+				<div class="contenu">
+					<p class="txt">Les mini-jeux sont tous réalisés en JAVASCRIPT.<br/></p>
+					<p class="txt">La plupart des mini-jeux utilisent des objets. Il s'agit d'éléments possédant des propriétés (position, vitesse, valeur, fonctions,...) qui définissent le comportement de l'objet.<br/></p>
+					<p class="txt">Par exemple pour le pong, l'objet balle possède une valeur nommé "pos" qui est celle de sa position dans la fenetre.<br/></p>
+				</div>
+				
+				<div class="contenu">
+					<p class="txt">-L'ensemble des mini-jeux commencent par une fonction dite SETUP, elle permet la création du canvas (fenetre d'affichage du jeu), ainsi que la création des éléments du jeu (par exemple le serpent du snake).<br/></p>
+					<p class="txt">-Les mini-jeux prennent en ENTREE certaines touches du clavier, et les clics de souris. Ces entrées vont modifier les éléments du jeu en fonction des comportements prédéfinis.<br/></p>
+					<p class="txt">-Enfin les SORTIES vont afficher dans le canvas les éléments de jeu, ainsi que les scores et les éléments qui n'intéragissent pas (tableau du morpion / puissance 4).<br/></p>
+					<p class="txt">-Les intéractions avec les ENTREE et les SORTIES s'éxecutent dans une fonction DRAW, celle-ci s'éxecute un certain nombre de fois par seconde afin d'avoir un affichage fluide.<br/></p>
+				</div>
+				
+				<div class="contenu">
+					<p class="txt">Certains jeux (snake et dinosaure) possèdent des COOKIES permettant de sauvegarder de meilleur score, même lorsque l'on quitte la page.<br/></p>
+					<p class="txt">Ces cookies fonctionnent grâce à des fonctions trouver sur Internet. <a target="_blank" href="https://www.w3schools.com/js/js_cookies.asp" class="ref">Ici</a><br/></p>
+				</div>
+			
+				<div class="contenu">
+					<p class="txt">Les différentes difficultées rencontrées:<br/></p>
+					<ul><p class="txt">-Bug de collision sur Pong<br/></p></ul>
+					<ul><p class="txt">-Jeu de moto trop compliqué à mettre en place (moteur physique)<br/></p></ul>
+					<ul><p class="txt">-Bug sur Puissance 4 (mauvaise création du tableau)<br/></p></ul>
+					<ul><p class="txt">-Gestion des touches sur Pong<br/></p></ul>
+				
+				
+					<p class="navig"><br/>&prod;<a href="repartition.html" class="ref2">&larr; Page précédente &larr;</a>&prod;<a href="#haut" class="ref2">&uarr; haut de page &uarr;</a>&prod;<a href="index.html" class="ref2">&rarr; accueil &larr;</a>&prod;<a href="integration.html" class="ref2">&rarr;Page suivante&rarr;</a>&prod;</p>
+				</div>
+			</div>
+	</body>
+</html>

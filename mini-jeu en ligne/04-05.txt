@@ -1,0 +1,4 @@
+puissance 4 : resultat du gagnant transparent
+snake : optimisation, cookies
+demineur : taille 720*480pixels
+dinosaure : rajout des touches espace et fleche vers le haut

@@ -1,0 +1,3 @@
+amelioration et debugage du pong, et du dinosaure
+meilleur collision ds pong 
+nouveau patern ds dinosaure

@@ -1,0 +1,2 @@
+fin du puissance 4
+-correction du bug des pions qui jouent sur toutes la lignes (pb de creation de tableau)
